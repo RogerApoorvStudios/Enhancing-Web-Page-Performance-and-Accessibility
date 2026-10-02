@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@media print {
+  body {
+    background-color: white !important;
+    color: black !important;
+    font-size: 11pt !important;
+  }
+  header, footer, nav, button, .print\:hidden {
+    display: none !important;
+  }
+  article {
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+}
